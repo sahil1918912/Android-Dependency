@@ -8,16 +8,20 @@
     implementation ("androidx.room:room-ktx:$room_version")
 
 
-# Lifecycle-viewmodel
+# Lifecycle-viewmodel/LiveData
 
     //    ViewModel
     implementation ("androidx.lifecycle:lifecycle-viewmodel:2.8.4")
+
 
 
             #  OR  #
 
     //    lifecycle-viewmodel-ktx
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+
+    //    lifecycle-LiveData-ktx
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
 
 
 
