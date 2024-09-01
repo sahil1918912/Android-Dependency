@@ -1,3 +1,17 @@
+
+
+# Retrofit with Gson Converter with OkHttp interceptor
+
+    //     retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    //     gson converter
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    // okHttp interceptor
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.9.1")
+
+
+
+
 # Room Database
 
     //Room
@@ -13,8 +27,6 @@
     //    ViewModel
     implementation ("androidx.lifecycle:lifecycle-viewmodel:2.8.4")
 
-
-
             #  OR  #
 
     //    lifecycle-viewmodel-ktx
@@ -22,15 +34,6 @@
 
     //    lifecycle-LiveData-ktx
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
-
-
-
-# Retrofit with Gson Converter 
-
-    //     retrofit
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    //     gson converter
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
 
 # Glide
