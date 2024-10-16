@@ -10,7 +10,17 @@
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.1")
 
 
+#Dagger Hilt
 
+        // Dagger Hilt
+    id 'com.google.dagger.hilt.android'
+    id 'kotlin-kapt'
+    
+    implementation ("com.google.dagger:hilt-android:2.44")
+    kapt ("com.google.dagger:hilt-compiler:2.44")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+     id 'com.google.dagger.hilt.android' version '2.44' apply false
 
 # Room Database
 
