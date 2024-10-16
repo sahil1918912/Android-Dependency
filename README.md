@@ -13,8 +13,8 @@
 #Dagger Hilt
 
         // Dagger Hilt
-    id 'com.google.dagger.hilt.android'
-    id 'kotlin-kapt'
+    id ("com.google.dagger.hilt.android")
+    id("kotlin-kapt")
     
     implementation ("com.google.dagger:hilt-android:2.44")
     kapt ("com.google.dagger:hilt-compiler:2.44")
