@@ -13,14 +13,14 @@
 #Dagger Hilt
 
         // Dagger Hilt
-    id ("com.google.dagger.hilt.android")
     id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
     
-    implementation ("com.google.dagger:hilt-android:2.44")
-    kapt ("com.google.dagger:hilt-compiler:2.44")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
-     id 'com.google.dagger.hilt.android' version '2.44' apply false
+     id("com.google.dagger.hilt.android") version "2.51.1" apply false
 
 # Room Database
 
