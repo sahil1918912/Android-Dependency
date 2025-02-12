@@ -22,6 +22,25 @@
 
      id("com.google.dagger.hilt.android") version "2.51.1" apply false
 
+# Navigation
+
+    implementation("androidx.navigation:navigation-compose:2.8.6")
+
+
+# Serialization
+
+    plugins {
+        kotlin("plugin.serialization") version "2.1.10"
+        }
+        
+   implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
+
+
+# Coil
+        implementation ("io.coil-kt:coil-compose:2.5.0")
+
+
+
 # Room Database
 
     //Room
