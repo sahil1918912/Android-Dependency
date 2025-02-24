@@ -2,11 +2,11 @@
 
 # Retrofit with Gson Converter with OkHttp interceptor
 
-        //     retrofit
+    //     retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.11.0")
     //     gson converter
     implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
-    // okHttp interceptor
+    //      okHttp interceptor
     implementation ("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
 
